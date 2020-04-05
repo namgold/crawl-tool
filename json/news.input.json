@@ -1,0 +1,41 @@
+{
+    "data": [
+        {
+            "key": "news",
+            "url": {
+                "link": "http://bkenglish.edu.vn/tin-tuc.html/p-{1..15}"
+            },
+            "url2": "http://bkenglish.edu.vn/tin-tuc.html/p-{1..15}",
+            "selector": ".news",
+            "isSelectAll": true,
+            "data": [
+                {
+                    "key": "title",
+                    "seletor": "h3"
+                },
+                {
+                    "key": "description",
+                    "seletor": ".tomtat",
+                    "seletorToValue": "innerText"
+                },
+                {
+                    "url": {
+                        "selector": "h3 a",
+                        "seletorToValue": "href"
+                    },
+                    "seletor": ".news-content",
+                    "data": [
+                        {
+                            "key": "content",
+                            "selector": "div ~ div"
+                        },
+                        {
+                            "key": "createdDate",
+                            "selector": "div"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
