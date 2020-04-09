@@ -1,0 +1,101 @@
+[
+    {
+        "url": "fb.com"
+    },
+    {
+        "url": {
+            "url": "fb.com"
+        }
+    },
+    {
+        "url": {
+            "selector": "h3 > a",
+            "seletorToValue": "href",
+            "selectOne": false
+        }
+    },
+    {
+        "url": {
+            "url": "fb.com",
+            "selector": "h3 > a",
+            "seletorToValue": "href",
+            "selectOne": true
+        }
+    },
+//-----------------------------------------------------------------------
+    {
+        "url": {
+            "url": "fb.com"
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "url": "fb.com"
+            }
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "url": "fb.com"
+            }
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "selector": "h3 > a",
+                "seletorToValue": "href"
+            }
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "url": "fb.com",
+                "selector": "h3 > a",
+                "seletorToValue": "href"
+            }
+        }
+    },
+//-------------------------------------------------------------------
+    {
+        "url": {
+            "url": "fb.com",
+            "selector": "h3 > a",
+            "seletorToValue": "href"
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "url": "http://bkenglish.edu.vn/tin-tuc.html/p-{1..15}"
+            },
+            "selector": "h3 > a",
+            "seletorToValue": "href"
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "selector": ".abc",
+                "seletorToValue": "href"
+            },
+            "selector": "h3 > a",
+            "seletorToValue": "href"
+        }
+    },
+    {
+        "url": {
+            "url": {
+                "url": "asdasdasasfsad.com",
+                "selector": "h3 > a",
+                "seletorToValue": "href"
+            },
+            "selector": "h3 > a",
+            "seletorToValue": "href"
+        }
+    }
+]
+

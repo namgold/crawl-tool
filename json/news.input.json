@@ -1,35 +1,44 @@
 {
     "data": [
         {
+            "__doc": "<html>...</html>",
             "key": "news",
             "url": {
                 "link": "http://bkenglish.edu.vn/tin-tuc.html/p-{1..15}"
             },
             "url2": "http://bkenglish.edu.vn/tin-tuc.html/p-{1..15}",
-            "selector": ".news",
-            "isSelectAll": true,
+            "selector": ".news:first-child()",
+            "selectOne": false,
             "data": [
                 {
+                    "__doc": "<div class='news'>1...</div>",
                     "key": "title",
-                    "seletor": "h3"
+                    "seletor": "h3:first-child()"
                 },
                 {
+                    "__doc": "<div class='news'>1...</div>",
                     "key": "description",
                     "seletor": ".tomtat",
-                    "seletorToValue": "innerText"
+                    "seletorToValue": "innerText",
+                    "selectOne": true
                 },
                 {
+                    "__doc": "<div class='news'>1...</div>",
+                    "seletor": ".news-content",
+                    "selectOne": true,
                     "url": {
+                        "__doc": "<div class='news'>1...</div>",
                         "selector": "h3 a",
                         "seletorToValue": "href"
                     },
-                    "seletor": ".news-content",
                     "data": [
                         {
+                            "__doc": "<div class='news-content'>subpage...</div>",
                             "key": "content",
                             "selector": "div ~ div"
                         },
                         {
+                            "__doc": "<div class='news-content'>subpage...</div>",
                             "key": "createdDate",
                             "selector": "div"
                         }
