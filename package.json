@@ -12,6 +12,6 @@
   "dependencies": {
     "fs": "0.0.1-security",
     "jsdom": "^16.2.2",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.7"
   }
 }
